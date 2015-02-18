@@ -59,8 +59,7 @@ public class Menu {
             {
                 Runtime.getRuntime().exec("clear");
             }
-        }
-        catch (final Exception e) { }
+        } catch (final Exception e) { }
 
         if (chosen > items.size() || chosen < 1) {
             System.out.println("Invalid option.\nPress enter to continue...");
